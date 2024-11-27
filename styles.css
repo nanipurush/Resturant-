@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.parallax {
+    background: url('restaurant.jpg') no-repeat center center/cover;
+    height: 400px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.content {
+    padding: 80px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+section#menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background: #f8f9fa;
+}
+
+.menu-item {
+    text-align: center;
+    transition: opacity 1s ease;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
